@@ -25,12 +25,12 @@ describe("enhancer tests", () => {
     })
 //-----------------------------------------------------------------------------
 
+//fails-----------------------------------------------------------------------
     it("has failed", () => {
-        expect(
-            fail({ name: "Mich", enhancement: 15, durability: 19 })
+        expect(fail({ name: "Weapon", enhancement: 15, durability: 19 })
         ).toMatchObject({
             durability: 9,
         })
     })
-
 })
+//------------------------------------------------------------------------------

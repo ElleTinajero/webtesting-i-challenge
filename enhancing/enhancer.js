@@ -4,7 +4,6 @@ module.exports = {
   repair,
 };
 
-//success test
 function succeed(name, enhancement, durability) {
   let newItem = { name, enhancement, durability };
   if (enhancement < 20) {
@@ -18,7 +17,6 @@ function succeed(name, enhancement, durability) {
   }
   return newItem
 }
-//success test
 
 function fail({ name, enhancement, durability }) {
   let newItem = { name, enhancement, durability };
